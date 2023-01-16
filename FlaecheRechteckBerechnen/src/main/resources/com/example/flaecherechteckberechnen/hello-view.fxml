@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.flaecherechteckberechnen.HelloController">
+   <children>
+      <Label layoutX="42.0" layoutY="73.0" text="Breite des Rechtecks" />
+      <Label layoutX="41.0" layoutY="116.0" text="Höhe des Rechtecks" />
+      <TextField fx:id="textFieldWidth" layoutX="223.0" layoutY="69.0" />
+      <TextField fx:id="textFieldHeight" layoutX="225.0" layoutY="111.0" />
+      <Label layoutX="51.0" layoutY="270.0" text="Ausgabe (Fläche)" />
+      <TextField fx:id="textFieldResult" layoutX="223.0" layoutY="274.0" />
+      <Button layoutX="466.0" layoutY="69.0" mnemonicParsing="false" onAction="#ButtonCalculateClick" text="Berechnen" />
+      <Button layoutX="466.0" layoutY="284.0" mnemonicParsing="false" onAction="#ButtonExitClick" text="Beenden" />
+   </children>
+</AnchorPane>

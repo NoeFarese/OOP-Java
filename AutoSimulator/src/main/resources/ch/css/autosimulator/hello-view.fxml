@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.css.autosimulator.HelloController">
+   <children>
+      <Label layoutX="46.0" layoutY="41.0" text="Auto wählen:" />
+      <ComboBox fx:id="comboBoxCars" layoutX="143.0" layoutY="37.0" onAction="#initialise" prefWidth="150.0" />
+      <Label fx:id="labelHorsePower" layoutX="422.0" layoutY="41.0" text="PS" />
+      <Line endX="284.0" endY="1.0" layoutX="222.0" layoutY="102.0" startX="-177.0" />
+      <Line endX="-139.70709228515625" endY="305.79290771484375" layoutX="183.0" layoutY="191.0" startX="-138.5" startY="-88.5" />
+      <Line endX="361.0" endY="0.5" layoutX="144.0" layoutY="498.0" startX="-100.0" />
+      <Line endX="108.5" endY="-192.5" layoutX="397.0" layoutY="296.0" startX="108.5" startY="202.0" />
+      <TextField fx:id="textFieldSpeed" layoutX="187.0" layoutY="168.0" prefHeight="67.0" prefWidth="178.0" />
+      <TextField fx:id="textFieldGear" layoutX="403.0" layoutY="168.0" prefHeight="67.0" prefWidth="71.0" />
+      <Label layoutX="187.0" layoutY="141.0" prefHeight="17.0" prefWidth="40.0" text="Km/h" />
+      <Button fx:id="onIdButtonBreak" layoutX="206.0" layoutY="263.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="140.0" text="Bremse" />
+      <Button fx:id="onIdButtonAccelerate" layoutX="389.0" layoutY="263.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="88.0" text="Gas" />
+      <Label layoutX="407.0" layoutY="141.0" text="Gang" />
+   </children>
+</AnchorPane>
